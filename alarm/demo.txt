@@ -1,0 +1,24 @@
+[{
+    "opr": "service",
+    "opr_type": "login",
+    "opr_param": "",
+    "record": {
+        "userEmail":"",
+        "userPass":""
+    }
+}
+,
+
+{
+    "opr": "service",
+    "opr_type": "operation",
+    "opr_param": "1000f2c472-off",
+    "record": {
+            "id": 1,
+            "userEmail": "ashaelesservice@gmail.com",
+            "userPass": "75487548",
+            "userRegion": "as"   
+    } 
+}
+
+]

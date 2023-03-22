@@ -1,0 +1,150 @@
+ws://127.0.0.1:8000/firealarm/1/
+
+===========>> Request  <<=============
+{
+    "opr": "service",
+    "opr_type": "login",
+    "opr_param": "",
+    "record": {
+            "userEmail": "nikhil@gmail.com",
+            "userPass": "123"
+    } 
+}
+
+
+============>> Output <<=====================
+
+{
+   "status_code":200,
+   "payload":{
+      "type":"site_config",
+      "response":[
+         {
+            "client_data":{
+               "id":1,
+               "status":1,
+               "cover_pic":"media/webs/client/cover-pic/profile-pic-1-1653743225.jpg",
+               "first_name":"nikhil",
+               "last_name":"singh",
+               "address":"pandesara",
+               "phone":"3454567898",
+               "email":"nikhil@gmail.com",
+               "password":"123"
+            },
+            "devices_list":[
+               {
+                  "id":1,
+                  "status":1,
+                  "admin_id_id":3,
+                  "name":"1000f2c472 Zone 1 fire",
+                  "device_id":"1000f2c472",
+                  "device_status":"off",
+                  "admin_detail":{
+                     "id":3,
+                     "status":1,
+                     "first_name":"kadir",
+                     "last_name":"bhai",
+                     "email":"ashaelesservice@gmail.com",
+                     "region":"as",
+                     "password":"75487548"
+                  }
+               },
+               {
+                  "id":2,
+                  "status":1,
+                  "admin_id_id":3,
+                  "name":"Demi fire alarm ",
+                  "device_id":"10010ed8c5",
+                  "device_status":"off",
+                  "admin_detail":{
+                     "id":3,
+                     "status":1,
+                     "first_name":"kadir",
+                     "last_name":"bhai",
+                     "email":"ashaelesservice@gmail.com",
+                     "region":"as",
+                     "password":"75487548"
+                  }
+               }
+            ]
+         }
+      ]
+   }
+}
+
+
+------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+
+ws://127.0.0.1:8000/firealarm/1/
+operation
+
+{
+    "opr": "service",
+    "opr_type": "operation",
+    "opr_param": "10010ed8c5-on",
+    "record": {
+            "user_id":1,
+            "admin_id":3
+    } 
+}
+
+==========> output <<======
+
+{
+   "status_code":200,
+   "payload":{
+      "type":"site_config",
+      "response":[
+         {
+            "client_data":{
+               "id":1,
+               "status":1,
+               "cover_pic":"media/webs/client/cover-pic/profile-pic-1-1653743225.jpg",
+               "first_name":"nikhil",
+               "last_name":"singh",
+               "address":"pandesara",
+               "phone":"3454567898",
+               "email":"nikhil@gmail.com",
+               "password":"123"
+            },
+            "devices_list":[
+               {
+                  "id":1,
+                  "status":1,
+                  "admin_id_id":3,
+                  "name":"1000f2c472 Zone 1 fire",
+                  "device_id":"1000f2c472",
+                  "device_status":"off",
+                  "admin_detail":{
+                     "id":3,
+                     "status":1,
+                     "first_name":"kadir",
+                     "last_name":"bhai",
+                     "email":"ashaelesservice@gmail.com",
+                     "region":"as",
+                     "password":"75487548"
+                  }
+               },
+               {
+                  "id":2,
+                  "status":1,
+                  "admin_id_id":3,
+                  "name":"Demi fire alarm ",
+                  "device_id":"10010ed8c5",
+                  "device_status":"off",
+                  "admin_detail":{
+                     "id":3,
+                     "status":1,
+                     "first_name":"kadir",
+                     "last_name":"bhai",
+                     "email":"ashaelesservice@gmail.com",
+                     "region":"as",
+                     "password":"75487548"
+                  }
+               }
+            ]
+         }
+      ]
+   }
+}

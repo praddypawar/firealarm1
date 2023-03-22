@@ -1,0 +1,26 @@
+aiohttp==3.7.3
+asgiref==3.5.0
+async-timeout==3.0.1
+attrs==21.4.0
+certifi==2021.10.8
+chardet==3.0.4
+django==3.2.6
+channels==3.0.4
+gunicorn==20.1.0
+idna==2.10
+multidict==6.0.2
+requests==2.25.1
+SonoffBasic==0.0.2
+sqlparse==0.4.2
+typing_extensions==4.1.1
+tzdata==2021.5
+urllib3==1.26.8
+whitenoise==6.0.0
+yarl==1.7.2
+nest-asyncio==1.5.4
+asn1crypto==1.4.0
+getmac==0.8.2
+django-rest-framework==0.1.0
+Pillow== 9.1.1
+django-cors-headers==3.13.0
+
